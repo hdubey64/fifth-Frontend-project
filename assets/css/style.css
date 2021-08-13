@@ -1,0 +1,19 @@
+:root {
+   --hTagColor: #212529;
+   --grayColor: #6e777f;
+}
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: 0;
+   scroll-behavior: smooth;
+}
+header {
+   position: sticky;
+   top: 0;
+   z-index: 10;
+}
+.right {
+   float: right !important;
+   border: 1px solid blue;
+}
