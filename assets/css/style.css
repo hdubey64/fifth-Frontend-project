@@ -9,11 +9,37 @@
    scroll-behavior: smooth;
 }
 header {
-   position: sticky;
+   position: absolute;
    top: 0;
+   left: 0;
+   right: 0;
    z-index: 10;
+
+   width: 100%;
 }
-.right {
-   float: right !important;
-   border: 1px solid blue;
+
+.navbar-light {
+   background: transparent;
+}
+
+.nav-link {
+   font-size: 0.8rem;
+   font-weight: 800;
+   color: white !important;
+}
+.nav-link a {
+   padding: 0 px;
+}
+.clean {
+   font-size: 1.5rem;
+   font-weight: 800;
+   color: white !important;
+}
+.heroSection {
+   background-image: url(/assets/imeges/Banner.jpg);
+   height: 85vh;
+   width: 100%;
+   background-size: cover;
+
+   background-repeat: no-repeat;
 }
