@@ -87,6 +87,7 @@ header {
    height: 0.5vh;
 }
 .btn {
+   position: relative;
    background: #0085a1;
    color: white;
    border-radius: 0;
@@ -124,6 +125,15 @@ footer p {
       width: 100%;
       padding: 0;
    }
+   .btn {
+      margin: 40px 0;
+      float: none;
+   }
+   .box1 {
+      float: right;
+      margin: -25px 0;
+      width: 58%;
+   }
 }
 
 @media (max-width: 768px) {
@@ -137,13 +147,24 @@ footer p {
       width: 100%;
       padding: 0;
    }
+   .box1 {
+      float: right;
+      margin: -25px 0;
+      width: 58%;
+   }
 }
 @media (max-width: 548px) {
    .content {
       width: 100%;
       padding: 40px;
    }
+   .btn {
+      margin: 40px 0;
+      float: none;
+   }
    .box1 {
-      width: 55%;
+      float: right;
+      margin: -25px 0;
+      width: 75%;
    }
 }
